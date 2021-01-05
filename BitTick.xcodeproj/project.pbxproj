@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D71C020F25A49EB60099766C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71C020E25A49EB60099766C /* AppDelegate.swift */; };
+		D71C021125A49EB60099766C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71C021025A49EB60099766C /* ViewController.swift */; };
+		D71C021325A49EBA0099766C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D71C021225A49EBA0099766C /* Assets.xcassets */; };
+		D71C021625A49EBA0099766C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D71C021425A49EBA0099766C /* Main.storyboard */; };
+		D71C022225A49EBA0099766C /* BitTickTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71C022125A49EBA0099766C /* BitTickTests.swift */; };
+		D71C022D25A49EBA0099766C /* BitTickUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71C022C25A49EBA0099766C /* BitTickUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D71C021E25A49EBA0099766C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D71C020325A49EB60099766C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D71C020A25A49EB60099766C;
+			remoteInfo = BitTick;
+		};
+		D71C022925A49EBA0099766C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D71C020325A49EB60099766C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D71C020A25A49EB60099766C;
+			remoteInfo = BitTick;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D71C020B25A49EB60099766C /* BitTick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitTick.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D71C020E25A49EB60099766C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D71C021025A49EB60099766C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D71C021225A49EBA0099766C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D71C021525A49EBA0099766C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D71C021725A49EBA0099766C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D71C021825A49EBA0099766C /* BitTick.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BitTick.entitlements; sourceTree = "<group>"; };
+		D71C021D25A49EBA0099766C /* BitTickTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitTickTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D71C022125A49EBA0099766C /* BitTickTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitTickTests.swift; sourceTree = "<group>"; };
+		D71C022325A49EBA0099766C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D71C022825A49EBA0099766C /* BitTickUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitTickUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D71C022C25A49EBA0099766C /* BitTickUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitTickUITests.swift; sourceTree = "<group>"; };
+		D71C022E25A49EBB0099766C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D71C020825A49EB60099766C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D71C021A25A49EBA0099766C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D71C022525A49EBA0099766C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D71C020225A49EB60099766C = {
+			isa = PBXGroup;
+			children = (
+				D71C020D25A49EB60099766C /* BitTick */,
+				D71C022025A49EBA0099766C /* BitTickTests */,
+				D71C022B25A49EBA0099766C /* BitTickUITests */,
+				D71C020C25A49EB60099766C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D71C020C25A49EB60099766C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D71C020B25A49EB60099766C /* BitTick.app */,
+				D71C021D25A49EBA0099766C /* BitTickTests.xctest */,
+				D71C022825A49EBA0099766C /* BitTickUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D71C020D25A49EB60099766C /* BitTick */ = {
+			isa = PBXGroup;
+			children = (
+				D71C020E25A49EB60099766C /* AppDelegate.swift */,
+				D71C021025A49EB60099766C /* ViewController.swift */,
+				D71C021225A49EBA0099766C /* Assets.xcassets */,
+				D71C021425A49EBA0099766C /* Main.storyboard */,
+				D71C021725A49EBA0099766C /* Info.plist */,
+				D71C021825A49EBA0099766C /* BitTick.entitlements */,
+			);
+			path = BitTick;
+			sourceTree = "<group>";
+		};
+		D71C022025A49EBA0099766C /* BitTickTests */ = {
+			isa = PBXGroup;
+			children = (
+				D71C022125A49EBA0099766C /* BitTickTests.swift */,
+				D71C022325A49EBA0099766C /* Info.plist */,
+			);
+			path = BitTickTests;
+			sourceTree = "<group>";
+		};
+		D71C022B25A49EBA0099766C /* BitTickUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D71C022C25A49EBA0099766C /* BitTickUITests.swift */,
+				D71C022E25A49EBB0099766C /* Info.plist */,
+			);
+			path = BitTickUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D71C020A25A49EB60099766C /* BitTick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D71C023125A49EBB0099766C /* Build configuration list for PBXNativeTarget "BitTick" */;
+			buildPhases = (
+				D71C020725A49EB60099766C /* Sources */,
+				D71C020825A49EB60099766C /* Frameworks */,
+				D71C020925A49EB60099766C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BitTick;
+			productName = BitTick;
+			productReference = D71C020B25A49EB60099766C /* BitTick.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D71C021C25A49EBA0099766C /* BitTickTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D71C023425A49EBB0099766C /* Build configuration list for PBXNativeTarget "BitTickTests" */;
+			buildPhases = (
+				D71C021925A49EBA0099766C /* Sources */,
+				D71C021A25A49EBA0099766C /* Frameworks */,
+				D71C021B25A49EBA0099766C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D71C021F25A49EBA0099766C /* PBXTargetDependency */,
+			);
+			name = BitTickTests;
+			productName = BitTickTests;
+			productReference = D71C021D25A49EBA0099766C /* BitTickTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D71C022725A49EBA0099766C /* BitTickUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D71C023725A49EBB0099766C /* Build configuration list for PBXNativeTarget "BitTickUITests" */;
+			buildPhases = (
+				D71C022425A49EBA0099766C /* Sources */,
+				D71C022525A49EBA0099766C /* Frameworks */,
+				D71C022625A49EBA0099766C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D71C022A25A49EBA0099766C /* PBXTargetDependency */,
+			);
+			name = BitTickUITests;
+			productName = BitTickUITests;
+			productReference = D71C022825A49EBA0099766C /* BitTickUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D71C020325A49EB60099766C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "Radek Pachla";
+				TargetAttributes = {
+					D71C020A25A49EB60099766C = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					D71C021C25A49EBA0099766C = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = D71C020A25A49EB60099766C;
+					};
+					D71C022725A49EBA0099766C = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = D71C020A25A49EB60099766C;
+					};
+				};
+			};
+			buildConfigurationList = D71C020625A49EB60099766C /* Build configuration list for PBXProject "BitTick" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D71C020225A49EB60099766C;
+			productRefGroup = D71C020C25A49EB60099766C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D71C020A25A49EB60099766C /* BitTick */,
+				D71C021C25A49EBA0099766C /* BitTickTests */,
+				D71C022725A49EBA0099766C /* BitTickUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D71C020925A49EB60099766C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D71C021325A49EBA0099766C /* Assets.xcassets in Resources */,
+				D71C021625A49EBA0099766C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D71C021B25A49EBA0099766C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D71C022625A49EBA0099766C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D71C020725A49EB60099766C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D71C021125A49EB60099766C /* ViewController.swift in Sources */,
+				D71C020F25A49EB60099766C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D71C021925A49EBA0099766C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D71C022225A49EBA0099766C /* BitTickTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D71C022425A49EBA0099766C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D71C022D25A49EBA0099766C /* BitTickUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D71C021F25A49EBA0099766C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D71C020A25A49EB60099766C /* BitTick */;
+			targetProxy = D71C021E25A49EBA0099766C /* PBXContainerItemProxy */;
+		};
+		D71C022A25A49EBA0099766C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D71C020A25A49EB60099766C /* BitTick */;
+			targetProxy = D71C022925A49EBA0099766C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D71C021425A49EBA0099766C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D71C021525A49EBA0099766C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D71C022F25A49EBB0099766C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D71C023025A49EBB0099766C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D71C023225A49EBB0099766C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BitTick/BitTick.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ED86G2CJ6V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = BitTick/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = radpac.BitTick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D71C023325A49EBB0099766C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BitTick/BitTick.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ED86G2CJ6V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = BitTick/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = radpac.BitTick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D71C023525A49EBB0099766C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ED86G2CJ6V;
+				INFOPLIST_FILE = BitTickTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = radpac.BitTickTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BitTick.app/Contents/MacOS/BitTick";
+			};
+			name = Debug;
+		};
+		D71C023625A49EBB0099766C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ED86G2CJ6V;
+				INFOPLIST_FILE = BitTickTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = radpac.BitTickTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BitTick.app/Contents/MacOS/BitTick";
+			};
+			name = Release;
+		};
+		D71C023825A49EBB0099766C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ED86G2CJ6V;
+				INFOPLIST_FILE = BitTickUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = radpac.BitTickUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = BitTick;
+			};
+			name = Debug;
+		};
+		D71C023925A49EBB0099766C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ED86G2CJ6V;
+				INFOPLIST_FILE = BitTickUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = radpac.BitTickUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = BitTick;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D71C020625A49EB60099766C /* Build configuration list for PBXProject "BitTick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D71C022F25A49EBB0099766C /* Debug */,
+				D71C023025A49EBB0099766C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D71C023125A49EBB0099766C /* Build configuration list for PBXNativeTarget "BitTick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D71C023225A49EBB0099766C /* Debug */,
+				D71C023325A49EBB0099766C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D71C023425A49EBB0099766C /* Build configuration list for PBXNativeTarget "BitTickTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D71C023525A49EBB0099766C /* Debug */,
+				D71C023625A49EBB0099766C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D71C023725A49EBB0099766C /* Build configuration list for PBXNativeTarget "BitTickUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D71C023825A49EBB0099766C /* Debug */,
+				D71C023925A49EBB0099766C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D71C020325A49EB60099766C /* Project object */;
+}
