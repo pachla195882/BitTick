@@ -12,14 +12,30 @@ import Cocoa
 class AppDelegate: NSObject, NSApplicationDelegate {
 
     let statusItem = NSStatusBar.system.statusItem(withLength:NSStatusItem.variableLength)
-    let popover = NSPopover()
 
-    @objc func printQuote(_ sender: Any?) {
-      let quoteText = "Never put off until tomorrow what you can do the day after tomorrow."
-      let quoteAuthor = "Mark Twain"
-      
-      print("\(quoteText) — \(quoteAuthor)")
-    }
+    let liskTicker = Decoder()
+    
+//    func fetchCoins( ) {
+//
+//
+//        let task = URLSession.shared.dataTask(with: URL(string: url)!, completionHandler: {(data, completion, error) in
+//
+//            if let error = error {
+//                print("Error with fetching data from BitBay API: \(error)")
+//                return
+//            }
+//
+//            guard let httpResponse = response as? HTTPURLResponse,
+//                (200...299).contains(httpResponse.statusCode) else {
+//                print("Error with the response, unexpected status code: \(response)")
+//                return
+//            }
+//
+//           if let data = data,
+//            let liskTicker = try? JSONDecoder().decode(<#T##type: Decodable.Protocol##Decodable.Protocol#>, from: <#T##Data#>)
+//
+//        })
+//    }
     
     func constructMenu() {
       let menu = NSMenu()
@@ -41,7 +57,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             button.title = "BitTicker"
         }
         constructMenu()
-    
+        liskTicker.getData()
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
